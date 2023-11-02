@@ -11,7 +11,7 @@ const getConnect = async () => {
     let client = new MongoClient('mongodb+srv://KareemTaiyeDB:KareemDB17@cluster0.k3etmdp.mongodb.net/TodoApp?retryWrites=true&w=majority')
     await client.connect()
     db = client.db()
-    app.listen(3100)
+    app.listen(3000)
   }
   
   getConnect()
